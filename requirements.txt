@@ -25,7 +25,7 @@ pytest-html==1.19.0
 pytest-metadata==1.9.0
 PyTestReport==0.2.1
 pywin32-ctypes==0.2.0
-PyYAML==3.12
+PyYAML==5.1
 requests==2.22.0
 selenium==2.53.6
 six==1.14.0
