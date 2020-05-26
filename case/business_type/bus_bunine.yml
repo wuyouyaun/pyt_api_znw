@@ -1,0 +1,68 @@
+#import pytest
+
+bus_type:
+
+-   ["buyPlate","premiumPrice","500","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["","premiumPrice","500","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","","500","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","premiumPrice","","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","premiumPrice","500","","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","premiumPrice","500","100","","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","premiumPrice","500","100","-100","", {'succeed': True, 'errorMsg':''}]
+
+-   ["000","premiumPrice","500","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","111","500","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+-   ["buyPlate","premiumPrice","zcb","100","-100","4", {'succeed': True, 'errorMsg':''}]
+
+
+
+settle_ment:
+
+-  [ "1","刘二畅3","mchtType02",{'errorMsg': '网络错误!', 'succeed': False} ]
+-  [ "2","刘二畅4","mchtType02",{'errorMsg': '网络错误!', 'succeed': False} ]
+-  [ "1","刘二畅5","mchtType02",{'errorMsg': '网络错误!', 'succeed': False} ]
+
+
+
+
+settlement_list:
+-   ["",{'succeed': True,}]
+-   ["1",{'succeed': True,}]
+-   ["3",{'succeed': True,}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

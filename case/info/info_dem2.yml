@@ -1,0 +1,14 @@
+
+
+test_get_info:
+-   ["F","10",{'message': 'update some data!', 'code': 0}]
+-   ["M","20",{'message': 'update some data!', 'code': 0}]
+-   ["F","30",{'message': 'update some data!', 'code': 0}]
+
+
+
+
+test_post_info:
+-   ["F",{'message': 'update some data!', 'code': 0}]
+-   ["M",{'message': 'update some data!', 'code': 0}]
+-   ["F",{'message': '参数类型错误', 'code': 3333}]
