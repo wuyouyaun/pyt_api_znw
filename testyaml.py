@@ -22,28 +22,33 @@ import os
 # with open('testyaml.py',encoding="utf-8") as fp:
 #     yaml.load(fp)
 
-# y =yaml.load(yamlfile('test_yaml',"r"))
-#  data = yaml.load(fs, Loader=yaml.FullLoader)
-file=os.path.dirname(os.path.realpath(__file__))
-yamlfile=os.path.join(file,"test.yaml")
-print(yamlfile)
-
-with open(yamlfile,"r",encoding="utf-8")as fp:
-    #d=yaml.load(yamlfile)
-    #c=fp.read()
-    # k=fp.read()
-    # print(k)
-    # print("322332")
-    # print(type(k))
-    d=yaml.load(fp.read())
-    print(d)
-    print(type(d))
-
-
+# # y =yaml.load(yamlfile('test_yaml',"r"))
+# #  data = yaml.load(fs, Loader=yaml.FullLoader)
+# file=os.path.dirname(os.path.realpath(__file__))
+# yamlfile=os.path.join(file,"test.yaml")
+# print(yamlfile)
+#
+# with open(yamlfile,"r",encoding="utf-8")as fp:
+#     #d=yaml.load(yamlfile)
+#     #c=fp.read()
+#     # k=fp.read()
+#     # print(k)
+#     # print("322332")
+#     # print(type(k))
+#     d=yaml.load(fp.read())
+#     print(d)
+#     print(type(d))
 
 
 
+d = {'one': 1, 'two': 2, 'three': 3}      #列表返回的
+print(type(d))
+#d.items()
+print(type(d.items()))
 
+for key ,vaule in d.items():
+    print(key,vaule)
+    #print(j)
 
 
 
